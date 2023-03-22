@@ -1,0 +1,16 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "importOrder": [
+    "^react$",
+    "react",
+    "<THIRD_PARTY_MODULES>",
+    "((^components)|(^.{0,2}/components)).*?$",
+    "^../((?!css).)*$",
+    "^./((?!css).)*$",
+    "css"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderCaseInsensitive": true
+}
